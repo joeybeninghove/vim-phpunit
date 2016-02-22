@@ -3,11 +3,19 @@ vim-phpunit
 
 Run phpunit tests using vim :D
 
+## Setup (manually)
+
+```
+git clone https://github.com/joeybeninghove/vim-phpunit.git ~/.vim/bundle/vim-phpunit
+```
+
 ## Setup (using Vundle)
 
 Add this to your Vundle file:
 
 `Plugin 'joeybeninghove/vim-phpunit'`
+
+## Leader Mappings
 
 Add this to your .vimrc:
 
