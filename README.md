@@ -3,26 +3,29 @@ vim-phpunit
 
 Run phpunit tests using vim :D
 
-## Setup
+## Setup (using Vundle)
 
-```
-git clone https://github.com/pedrogimenez/vim-phpunit.git ~/.vim/bundle/vim-phpunit
-```
+Add this to your Vundle file:
+
+`Plugin 'joeybeninghove/vim-phpunit'`
 
 Add this to your .vimrc:
 
 ```
-" PHPUnit mappings
-map <Leader>l :call RunCurrentTest()<CR>
-map <Leader>la :call RunAllTests()<CR>
+" phpunit shortcuts
+map <Leader>u :call RunCurrentTest()<CR>
+map <Leader>uf :call RunCurrentTestFile()<CR>
+map <Leader>ua :call RunAllTests()<CR>
 ```
 
 ## Use
 
 Inside vim:
 
-> Press Leader + l to run the current test file.
+> Type Leader + u to run the current test.
 
-> Press Leader + la to run all the test files.
+> Type Leader + uf to run the current test file.
+
+> Type Leader + ua to run all the tests in the entire project.
 
 Enjoy :heart:
